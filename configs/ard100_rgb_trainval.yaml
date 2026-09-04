@@ -1,0 +1,9 @@
+# Replace the path below or set ARD100_DATASET_ROOT and regenerate this file.
+path: ../data/ARD100_prepared
+train: images/train
+val: images/val
+test: images/test
+nc: 1
+names:
+  0: Drone
+

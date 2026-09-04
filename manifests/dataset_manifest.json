@@ -1,0 +1,29 @@
+{
+  "protocol_version": "ard100-det-v1",
+  "source_lineage": "private source-lineage record; public video identities are listed under splits/",
+  "source_lineage_sha256": "0f7b3e2851052eddfd793cdb21634ff30fb78700371f2d7b2185e6dfab30944f",
+  "source_dataset": "external ARD100 prepared dataset supplied through ARD100_DATASET_ROOT",
+  "coco": {
+    "train": {
+      "images": 35708,
+      "annotations": 34041,
+      "sha256": "b5a228393ef6c8398acac5a5265151ed192ba6685657686cf906104e462d37b0"
+    },
+    "val": {
+      "images": 8938,
+      "annotations": 8484,
+      "sha256": "ad3c8ce4f72b9606a3e8dbbf1796c9ac1d808a75542057a62eed12218ece1e7b"
+    },
+    "test": {
+      "images": 72631,
+      "annotations": 71633,
+      "sha256": "6c006695f081cd6eb7ad7465a33646d4746e1bd42b4598aeb474eb71055e2802"
+    }
+  },
+  "test_frames": 72631,
+  "test_videos": 35,
+  "test_positive_frames": 71633,
+  "test_negative_frames": 998,
+  "errors": [],
+  "status": "PASS"
+}

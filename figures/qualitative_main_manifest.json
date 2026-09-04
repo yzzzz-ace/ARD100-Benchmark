@@ -1,0 +1,34 @@
+{
+  "protocol": "ard100-det-supp-v2",
+  "status": "PASS",
+  "selection": "two main-paper cases inherited from the four-case deterministic qualitative manifest",
+  "cases": [
+    {
+      "case": "Tiny and low contrast",
+      "sample_id": "phantom04_000551",
+      "above_threshold_models": [
+        "Faster R-CNN:0.41",
+        "YOLOv8s:0.20",
+        "RT-DETR-L:0.71",
+        "YOLOMG-Arch:0.44"
+      ]
+    },
+    {
+      "case": "Explicit target-absent frame",
+      "sample_id": "phantom08_000292",
+      "above_threshold_models": [
+        "Faster R-CNN:0.99",
+        "RetinaNet:0.96",
+        "FCOS:0.26",
+        "YOLOv8s:0.36",
+        "RT-DETR-L:0.75",
+        "YOLOMG-Arch:0.54"
+      ]
+    }
+  ],
+  "metadata_sha256": "2eef36c35b72fbf635c068af9c351aa3a411e8d6b7632d4df17549d81fb6540e",
+  "outputs": [
+    "qualitative_main.png",
+    "qualitative_main.pdf"
+  ]
+}

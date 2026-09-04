@@ -1,0 +1,482 @@
+{
+  "protocol": "ard100-det-supp-v2",
+  "status": "PASS",
+  "seed": 20260821,
+  "method": "global SHA256 ranking of sample IDs",
+  "counts": {
+    "train": 35708,
+    "val": 8938,
+    "videos": 65
+  },
+  "video_overlap": 65,
+  "adjacent_pairs": 2092,
+  "adjacent_cross_partition_pairs": 646,
+  "adjacent_cross_partition_rate": 0.30879541108986613,
+  "files": {
+    "train": {
+      "path": "splits/random_frame_train_sample_ids.txt",
+      "sha256": "c12a3fcd91bdd186c13f6dd76903051b0faeaf26effff7806861e6d2480fb68c"
+    },
+    "val": {
+      "path": "splits/random_frame_val_sample_ids.txt",
+      "sha256": "b240528b2e4688168ef9135f43b9170c743b1bb313b4901af5a83df16c65091f"
+    }
+  },
+  "per_video": [
+    {
+      "video_id": "phantom09",
+      "train_frames": 495,
+      "val_frames": 112,
+      "adjacent_pairs": 12,
+      "adjacent_cross_partition_pairs": 3
+    },
+    {
+      "video_id": "phantom10",
+      "train_frames": 477,
+      "val_frames": 122,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom106",
+      "train_frames": 731,
+      "val_frames": 168,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom107",
+      "train_frames": 764,
+      "val_frames": 191,
+      "adjacent_pairs": 39,
+      "adjacent_cross_partition_pairs": 13
+    },
+    {
+      "video_id": "phantom108",
+      "train_frames": 540,
+      "val_frames": 130,
+      "adjacent_pairs": 14,
+      "adjacent_cross_partition_pairs": 3
+    },
+    {
+      "video_id": "phantom109",
+      "train_frames": 1273,
+      "val_frames": 323,
+      "adjacent_pairs": 143,
+      "adjacent_cross_partition_pairs": 47
+    },
+    {
+      "video_id": "phantom111",
+      "train_frames": 973,
+      "val_frames": 231,
+      "adjacent_pairs": 8,
+      "adjacent_cross_partition_pairs": 1
+    },
+    {
+      "video_id": "phantom112",
+      "train_frames": 1081,
+      "val_frames": 269,
+      "adjacent_pairs": 446,
+      "adjacent_cross_partition_pairs": 132
+    },
+    {
+      "video_id": "phantom114",
+      "train_frames": 409,
+      "val_frames": 90,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom115",
+      "train_frames": 1195,
+      "val_frames": 299,
+      "adjacent_pairs": 64,
+      "adjacent_cross_partition_pairs": 18
+    },
+    {
+      "video_id": "phantom116",
+      "train_frames": 818,
+      "val_frames": 192,
+      "adjacent_pairs": 16,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom117",
+      "train_frames": 578,
+      "val_frames": 129,
+      "adjacent_pairs": 11,
+      "adjacent_cross_partition_pairs": 2
+    },
+    {
+      "video_id": "phantom118",
+      "train_frames": 335,
+      "val_frames": 94,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom120",
+      "train_frames": 831,
+      "val_frames": 215,
+      "adjacent_pairs": 43,
+      "adjacent_cross_partition_pairs": 23
+    },
+    {
+      "video_id": "phantom132",
+      "train_frames": 644,
+      "val_frames": 135,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom137",
+      "train_frames": 517,
+      "val_frames": 135,
+      "adjacent_pairs": 63,
+      "adjacent_cross_partition_pairs": 18
+    },
+    {
+      "video_id": "phantom138",
+      "train_frames": 468,
+      "val_frames": 140,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom139",
+      "train_frames": 383,
+      "val_frames": 96,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom14",
+      "train_frames": 357,
+      "val_frames": 92,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom140",
+      "train_frames": 484,
+      "val_frames": 115,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom142",
+      "train_frames": 673,
+      "val_frames": 142,
+      "adjacent_pairs": 23,
+      "adjacent_cross_partition_pairs": 4
+    },
+    {
+      "video_id": "phantom143",
+      "train_frames": 556,
+      "val_frames": 145,
+      "adjacent_pairs": 3,
+      "adjacent_cross_partition_pairs": 1
+    },
+    {
+      "video_id": "phantom145",
+      "train_frames": 241,
+      "val_frames": 60,
+      "adjacent_pairs": 3,
+      "adjacent_cross_partition_pairs": 1
+    },
+    {
+      "video_id": "phantom146",
+      "train_frames": 496,
+      "val_frames": 103,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom147",
+      "train_frames": 550,
+      "val_frames": 155,
+      "adjacent_pairs": 9,
+      "adjacent_cross_partition_pairs": 2
+    },
+    {
+      "video_id": "phantom148",
+      "train_frames": 412,
+      "val_frames": 87,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom149",
+      "train_frames": 351,
+      "val_frames": 99,
+      "adjacent_pairs": 1,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom150",
+      "train_frames": 365,
+      "val_frames": 84,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom17",
+      "train_frames": 674,
+      "val_frames": 195,
+      "adjacent_pairs": 405,
+      "adjacent_cross_partition_pairs": 137
+    },
+    {
+      "video_id": "phantom19",
+      "train_frames": 601,
+      "val_frames": 118,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom20",
+      "train_frames": 475,
+      "val_frames": 124,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom28",
+      "train_frames": 307,
+      "val_frames": 72,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom29",
+      "train_frames": 532,
+      "val_frames": 142,
+      "adjacent_pairs": 111,
+      "adjacent_cross_partition_pairs": 42
+    },
+    {
+      "video_id": "phantom30",
+      "train_frames": 398,
+      "val_frames": 101,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom32",
+      "train_frames": 396,
+      "val_frames": 103,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom36",
+      "train_frames": 350,
+      "val_frames": 99,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom40",
+      "train_frames": 530,
+      "val_frames": 140,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom42",
+      "train_frames": 409,
+      "val_frames": 104,
+      "adjacent_pairs": 21,
+      "adjacent_cross_partition_pairs": 6
+    },
+    {
+      "video_id": "phantom43",
+      "train_frames": 464,
+      "val_frames": 135,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom44",
+      "train_frames": 316,
+      "val_frames": 83,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom46",
+      "train_frames": 519,
+      "val_frames": 128,
+      "adjacent_pairs": 72,
+      "adjacent_cross_partition_pairs": 22
+    },
+    {
+      "video_id": "phantom63",
+      "train_frames": 472,
+      "val_frames": 127,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom65",
+      "train_frames": 611,
+      "val_frames": 168,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom66",
+      "train_frames": 525,
+      "val_frames": 124,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom68",
+      "train_frames": 435,
+      "val_frames": 114,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom70",
+      "train_frames": 350,
+      "val_frames": 99,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom71",
+      "train_frames": 471,
+      "val_frames": 128,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom74",
+      "train_frames": 393,
+      "val_frames": 106,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom75",
+      "train_frames": 474,
+      "val_frames": 125,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom76",
+      "train_frames": 279,
+      "val_frames": 73,
+      "adjacent_pairs": 4,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom77",
+      "train_frames": 484,
+      "val_frames": 115,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom78",
+      "train_frames": 645,
+      "val_frames": 190,
+      "adjacent_pairs": 114,
+      "adjacent_cross_partition_pairs": 38
+    },
+    {
+      "video_id": "phantom80",
+      "train_frames": 510,
+      "val_frames": 133,
+      "adjacent_pairs": 21,
+      "adjacent_cross_partition_pairs": 8
+    },
+    {
+      "video_id": "phantom81",
+      "train_frames": 613,
+      "val_frames": 146,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom82",
+      "train_frames": 492,
+      "val_frames": 109,
+      "adjacent_pairs": 3,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom84",
+      "train_frames": 481,
+      "val_frames": 118,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom85",
+      "train_frames": 355,
+      "val_frames": 92,
+      "adjacent_pairs": 72,
+      "adjacent_cross_partition_pairs": 23
+    },
+    {
+      "video_id": "phantom86",
+      "train_frames": 493,
+      "val_frames": 106,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom87",
+      "train_frames": 467,
+      "val_frames": 113,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "phantom89",
+      "train_frames": 568,
+      "val_frames": 130,
+      "adjacent_pairs": 146,
+      "adjacent_cross_partition_pairs": 48
+    },
+    {
+      "video_id": "phantom90",
+      "train_frames": 564,
+      "val_frames": 125,
+      "adjacent_pairs": 135,
+      "adjacent_cross_partition_pairs": 36
+    },
+    {
+      "video_id": "test08",
+      "train_frames": 1024,
+      "val_frames": 276,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "test35",
+      "train_frames": 885,
+      "val_frames": 234,
+      "adjacent_pairs": 0,
+      "adjacent_cross_partition_pairs": 0
+    },
+    {
+      "video_id": "test39",
+      "train_frames": 701,
+      "val_frames": 201,
+      "adjacent_pairs": 4,
+      "adjacent_cross_partition_pairs": 4
+    },
+    {
+      "video_id": "test40",
+      "train_frames": 448,
+      "val_frames": 89,
+      "adjacent_pairs": 86,
+      "adjacent_cross_partition_pairs": 14
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.9
+seaborn>=0.13
+statsmodels>=0.14
+pillow>=10.0
+opencv-python>=4.10
+PyYAML>=6.0
+ultralytics==8.4.67
+# Recorded GPU stack: torch==2.11.0+cu126, torchvision==0.26.0+cu126.
+# Install the appropriate CUDA wheels from the official PyTorch index.
+

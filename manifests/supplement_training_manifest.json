@@ -1,0 +1,23 @@
+{
+  "protocol": "ard100-det-supp-v2",
+  "status": "PASS",
+  "official_test_reused": false,
+  "input_hashes": {
+    "outputs\\metrics\\yolov8s\\val_metrics.json": "92094ef23139df6fdda29f8b4a2b8913e15f5528816bddf474e303fc0e8e0a52",
+    "outputs\\metrics\\yolov8s_video_disjoint_seed20260822\\val_metrics.json": "7fab39d58e63747f4af6439be6a0e91f05a48e64bd2ba8428af52daa830f4eb9",
+    "outputs\\metrics\\yolov8s_video_disjoint_seed20260823\\val_metrics.json": "bc016880a24d64e26b259dbf015aa01d21a74434cf5db2e1f78bb69b7cced4ad",
+    "outputs\\metrics\\rtdetr_l\\val_metrics.json": "a8c7614954e433e6e8ab6233a6720076a302861867cbaf22e0d0cf944c48341b",
+    "outputs\\metrics\\rtdetr_l_video_disjoint_seed20260822\\val_metrics.json": "66d1320fded9c0f34bd8bcef20f2a4f9226671594bda6c8eaa1c451ced1f8aaf",
+    "outputs\\metrics\\rtdetr_l_video_disjoint_seed20260823\\val_metrics.json": "4fefa457e55e1b6faf7eda12cb264792753ddc4f751bebfa7cb6b381620bf045",
+    "outputs\\metrics\\yolomg_paper\\val_metrics.json": "d323e4f5bb6d956aa88a8bc39b7d23ff8b0feae9d32ad45f74299f93e5105247",
+    "outputs\\metrics\\yolomg_arch_video_disjoint_seed2\\val_metrics.json": "db9360a2032423ed5b544031d466a9cb45751b4910fc8e0bd50d4d2ca485233b",
+    "outputs\\metrics\\yolomg_arch_video_disjoint_seed3\\val_metrics.json": "f831e34aa671812cd1a0e45f42c96afb94e0240c3cc77c4aa5b72ffb3b632346",
+    "outputs\\training\\ultralytics\\yolov8s_ard100_det_v1_nativeaug_sgd_e30_b64\\results.csv": "b369cf8734fde12870d4457dab8dbefc90a7445f0248224f4f458eb3bdba0ff4",
+    "outputs\\supplementary\\training\\yolov8s_random_frame_seed20260821\\results.csv": "b581530311bbac06158793d674f8d122da3587294114be2347806fbc17fcb5f5"
+  },
+  "outputs": [
+    "seed_runs.csv",
+    "seed_summary.csv",
+    "leakage_diagnostic.json"
+  ]
+}

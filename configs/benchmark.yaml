@@ -1,0 +1,37 @@
+protocol_version: ard100-det-v1
+seed: 20260821
+image_size: 640
+stored_max_side: 1280
+jpeg_quality: 92
+
+paths:
+  dataset_root_env: ARD100_DATASET_ROOT
+  official_root_env: ARD100_OFFICIAL_ROOT
+  yolomg_code_root_env: YOLOMG_CODE_ROOT
+  output_root: outputs
+
+detectors:
+  - {id: fasterrcnn_r50_fpn_v2, family: two_stage_anchor, framework: torchvision, initialization: COCO}
+  - {id: retinanet_resnet50_fpn_v2, family: one_stage_anchor, framework: torchvision, initialization: COCO}
+  - {id: fcos_resnet50_fpn, family: one_stage_anchor_free, framework: torchvision, initialization: COCO}
+  - {id: yolov8s, family: real_time_anchor_free, framework: ultralytics, initialization: COCO}
+  - {id: rtdetr_l, family: transformer_end_to_end, framework: ultralytics, initialization: COCO}
+  - {id: yolomg_paper, public_name: YOLOMG-Arch, family: rgb_motion_dual_stream, framework: yolomg, initialization: partial_COCO_YOLOv5s}
+
+train:
+  max_epochs: 30
+  patience: 10
+  workers: 8
+  augmentation_policy: architecture_native_frozen
+
+evaluation:
+  accuracy_precision: fp32
+  primary_input_size: 640
+  diagnostic_input_sizes: [640, 1280]
+  iou_thresholds: [0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90, 0.95]
+  center_precision_px: [5, 10, 20]
+  sqrt_area_bins_px: [12, 20, 32]
+  bootstrap_video_resamples: 10000
+  runtime_warmup: 100
+  runtime_frames: 1000
+
