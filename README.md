@@ -1,14 +1,15 @@
-# ARD100 Benchmark
+# ARD100 Video-Disjoint Detection Benchmark
 
 Official release package for the study:
 
 > **Tiny Object Detection in Long-Range Videos: A Video-Disjoint and
 > Attribute-Stratified Benchmark on ARD100**
 
-This repository evaluates six detector families on ARD100 under a restored
-65/35-video source partition, a video-disjoint 52/13-video learned split,
-validation-only model selection, and a locked one-time official test. It is
-independent of LCA-DR and does not contain a tracker.
+This repository evaluates six detector families on ARD100 using the source
+authors' 65/35-video train/test partition unchanged. Model selection uses a
+fixed video-disjoint 52/13 split drawn only from the 65 official training
+videos, followed by a locked one-time evaluation on the unchanged official
+test set. It is independent of LCA-DR and does not contain a tracker.
 
 ## Main findings
 
@@ -28,7 +29,7 @@ independent of LCA-DR and does not contain a tracker.
 |---|---|
 | `scripts/` | Dataset construction, training, inference, evaluation, statistics, and figure generation |
 | `configs/` | Portable benchmark and dataset templates |
-| `splits/` | Official/video-disjoint memberships and exact random-frame diagnostic sample IDs |
+| `splits/` | Source-author train/test memberships, the fixed video-disjoint model-selection membership, and exact random-frame diagnostic sample IDs |
 | `results/` | Compact machine-readable results used by the paper |
 | `manifests/` | Dataset, frozen-test, and supplemental audit records |
 | `figures/` | Final benchmark and diagnostic figures |
@@ -58,7 +59,7 @@ ARD100_prepared/
   labels/{train,val,test}/
 ```
 
-See `docs/DATA_SETUP.md` for the source link, split reconstruction, annotation
+See `docs/DATA_SETUP.md` for the source link, split construction, annotation
 rules, and motion-input construction.
 
 ## Environment
@@ -112,12 +113,17 @@ construction scripts, hashes, and derived aggregate results, but does not
 redistribute the source videos or images. Users must obtain the dataset from
 the source authors and comply with its terms.
 
+The `splits/` directory contains only memberships used in the study and the
+explicitly labeled random-frame leakage diagnostic. It contains no historical
+or discarded main split. The random-frame memberships were not used for
+checkpoint selection, threshold selection, or official testing.
+
 The benchmark harness is released under the MIT License. The external YOLOMG
 repository is GPL-3.0 licensed and is not vendored here. See
 `THIRD_PARTY_NOTICES.md` before distributing modified third-party files.
 
 ## Citation
 
-Author metadata and the planned repository URL are recorded in `CITATION.cff`.
-Until the article receives a DOI, cite the tagged repository release and the
-original ARD100/YOLOMG paper.
+Complete the author metadata in `CITATION.cff` and replace the repository URL
+before the first public release. Until the article receives a DOI, cite the
+tagged repository release and the original ARD100/YOLOMG paper.
