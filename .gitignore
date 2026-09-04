@@ -1,0 +1,21 @@
+# Local datasets and generated artifacts
+data/
+datasets/
+outputs/
+weights/*.pt
+external/
+
+# Python and editor state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+
+# OS files and local environment
+.env
+.DS_Store
+Thumbs.db
