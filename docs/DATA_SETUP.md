@@ -16,15 +16,19 @@ redistributing any third-party data.
 
 ## Frozen memberships
 
-- Source partition: 65 learned videos and 35 official-test videos.
-- Learned partition: 52 training videos and 13 validation videos.
-- No video belongs to more than one learned or official partition.
+- Source-author partition used unchanged: 65 training videos and 35 official-test videos.
+- Model-selection partition drawn only from the 65 official training videos: 52 training videos and 13 validation videos.
+- The 35 official-test videos remain unchanged and are never used for model or threshold selection.
+- No source video belongs to more than one training, validation, or test partition.
 - Frames without matching XML are omitted rather than converted to negatives.
 - XML files explicitly containing no target remain valid negative frames.
 
 Exact memberships are in `splits/`. The matched random-frame diagnostic is
 generated deterministically by SHA-256 ranking of sample IDs with seed
 20260821; its audited counts are 35,708 training and 8,938 validation frames.
+These random-frame memberships are retained only to reproduce the leakage
+diagnostic; they are not an earlier main split and were not used for checkpoint
+selection, threshold selection, or official testing.
 
 ## Prepared layout
 
