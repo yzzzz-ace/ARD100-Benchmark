@@ -1,0 +1,25 @@
+{
+  "protocol_version": "ard100-det-v1",
+  "model": "yolov8s_video_disjoint_seed20260823",
+  "source_split": "val",
+  "threshold": 0.22406715154647827,
+  "selection_metric": "maximum frame F1 at IoU>=0.50",
+  "validation_summary": {
+    "frames": 8938,
+    "positive_frames": 8484,
+    "negative_frames": 454,
+    "true_localizations_iou50": 2177,
+    "frame_false_positives": 1976,
+    "frame_false_negatives": 6307,
+    "frame_precision_iou50": 0.5241993739465447,
+    "frame_recall_iou50": 0.2566006600660066,
+    "frame_f1_iou50": 0.34454379995252044,
+    "macro_video_recall_iou50": 0.25140818346842697,
+    "top1_mean_iou_present": 0.2037209502789101,
+    "center_precision_5px": 0.30586987270155586,
+    "center_precision_10px": 0.30645921735030646,
+    "center_precision_20px": 0.3066949552098067,
+    "false_positive_frame_rate_absent": 0.2092511013215859,
+    "false_positive_detections_per_absent_frame": 0.24669603524229075
+  }
+}

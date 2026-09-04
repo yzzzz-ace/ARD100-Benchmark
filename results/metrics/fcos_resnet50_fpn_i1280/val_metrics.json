@@ -1,0 +1,37 @@
+{
+  "protocol_version": "ard100-det-v1",
+  "model": "fcos_resnet50_fpn_i1280",
+  "split": "val",
+  "threshold": 0.354731947183609,
+  "average_precision": {
+    "AP50": 0.30889735679376956,
+    "AP55": 0.29187198471072845,
+    "AP60": 0.25735380894508814,
+    "AP65": 0.20831647927261246,
+    "AP70": 0.14471383275025274,
+    "AP75": 0.07809639780003667,
+    "AP80": 0.033948014949156224,
+    "AP85": 0.014234409019219404,
+    "AP90": 0.0014580910681156291,
+    "AP95": 4.208709925190181e-05,
+    "AP50_95": 0.13389324624082316
+  },
+  "top1": {
+    "frames": 8938,
+    "positive_frames": 8484,
+    "negative_frames": 454,
+    "true_localizations_iou50": 2805,
+    "frame_false_positives": 2525,
+    "frame_false_negatives": 5679,
+    "frame_precision_iou50": 0.5262664165103189,
+    "frame_recall_iou50": 0.33062234794908063,
+    "frame_f1_iou50": 0.40610974373823655,
+    "macro_video_recall_iou50": 0.33603383045873214,
+    "top1_mean_iou_present": 0.25644174967519706,
+    "center_precision_5px": 0.3696369636963696,
+    "center_precision_10px": 0.3708156529938708,
+    "center_precision_20px": 0.3716407355021216,
+    "false_positive_frame_rate_absent": 0.12555066079295155,
+    "false_positive_detections_per_absent_frame": 0.13215859030837004
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "protocol_version": "ard100-det-v1",
+  "model": "yolomg_paper",
+  "source_split": "val",
+  "threshold": 0.11662977933883667,
+  "selection_metric": "maximum frame F1 at IoU>=0.50",
+  "validation_summary": {
+    "frames": 8938,
+    "positive_frames": 8484,
+    "negative_frames": 454,
+    "true_localizations_iou50": 5993,
+    "frame_false_positives": 1910,
+    "frame_false_negatives": 2491,
+    "frame_precision_iou50": 0.7583196254586866,
+    "frame_recall_iou50": 0.7063884959924563,
+    "frame_f1_iou50": 0.7314334533471655,
+    "macro_video_recall_iou50": 0.7044616933178839,
+    "top1_mean_iou_present": 0.553612011680299,
+    "center_precision_5px": 0.7708628005657708,
+    "center_precision_10px": 0.771923620933522,
+    "center_precision_20px": 0.7725129655822726,
+    "false_positive_frame_rate_absent": 0.6277533039647577,
+    "false_positive_detections_per_absent_frame": 1.077092511013216
+  }
+}

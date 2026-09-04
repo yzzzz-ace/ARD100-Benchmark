@@ -1,0 +1,37 @@
+{
+  "protocol_version": "ard100-det-v1",
+  "model": "yolomg_paper",
+  "split": "val",
+  "threshold": 0.11662977933883667,
+  "average_precision": {
+    "AP50": 0.6828492566154735,
+    "AP55": 0.6325679877175582,
+    "AP60": 0.5670314166456378,
+    "AP65": 0.4808309824361727,
+    "AP70": 0.37562855697085223,
+    "AP75": 0.24971775113352723,
+    "AP80": 0.12055655758871149,
+    "AP85": 0.04005093360664153,
+    "AP90": 0.005125534513661285,
+    "AP95": 0.0006188118811881188,
+    "AP50_95": 0.31549777891094244
+  },
+  "top1": {
+    "frames": 8938,
+    "positive_frames": 8484,
+    "negative_frames": 454,
+    "true_localizations_iou50": 5993,
+    "frame_false_positives": 1910,
+    "frame_false_negatives": 2491,
+    "frame_precision_iou50": 0.7583196254586866,
+    "frame_recall_iou50": 0.7063884959924563,
+    "frame_f1_iou50": 0.7314334533471655,
+    "macro_video_recall_iou50": 0.7044616933178839,
+    "top1_mean_iou_present": 0.553612011680299,
+    "center_precision_5px": 0.7708628005657708,
+    "center_precision_10px": 0.771923620933522,
+    "center_precision_20px": 0.7725129655822726,
+    "false_positive_frame_rate_absent": 0.6277533039647577,
+    "false_positive_detections_per_absent_frame": 1.077092511013216
+  }
+}

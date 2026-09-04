@@ -1,0 +1,8 @@
+{
+  "detector": "yolov8s",
+  "metric": "native validation AP50:95",
+  "video_disjoint": 0.09702,
+  "random_frame": 0.39773,
+  "absolute_inflation": 0.30071,
+  "relative_inflation": 3.0994640280354564
+}

@@ -1,0 +1,37 @@
+{
+  "protocol_version": "ard100-det-v1",
+  "model": "yolomg_arch_video_disjoint_seed2",
+  "split": "val",
+  "threshold": 0.1750592291355133,
+  "average_precision": {
+    "AP50": 0.6615527705727907,
+    "AP55": 0.6154230173657081,
+    "AP60": 0.5571168663445154,
+    "AP65": 0.4766693425227146,
+    "AP70": 0.3670457292189676,
+    "AP75": 0.23518469328421526,
+    "AP80": 0.11225282252354396,
+    "AP85": 0.0304036590320358,
+    "AP90": 0.004094676481410732,
+    "AP95": 0.00010589294223540001,
+    "AP50_95": 0.30598494702881374
+  },
+  "top1": {
+    "frames": 8938,
+    "positive_frames": 8484,
+    "negative_frames": 454,
+    "true_localizations_iou50": 5736,
+    "frame_false_positives": 1847,
+    "frame_false_negatives": 2748,
+    "frame_precision_iou50": 0.7564288540155611,
+    "frame_recall_iou50": 0.6760961810466761,
+    "frame_f1_iou50": 0.7140100827783656,
+    "macro_video_recall_iou50": 0.6641448909198433,
+    "top1_mean_iou_present": 0.5319341185133771,
+    "center_precision_5px": 0.7398632720414898,
+    "center_precision_10px": 0.7411598302687411,
+    "center_precision_20px": 0.7415134370579916,
+    "false_positive_frame_rate_absent": 0.6740088105726872,
+    "false_positive_detections_per_absent_frame": 1.1123348017621146
+  }
+}

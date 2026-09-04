@@ -1,0 +1,23 @@
+{
+  "protocol_version": "ard100-det-v1",
+  "model": "yolomg_paper",
+  "precision": "fp32",
+  "weights": "weights/yolomg_paper_ard100_det_v1_best.pt",
+  "weights_sha256": "fdc48bd6383d11a33da678ba8d0b4e2ae257b00a1a16213a3db40cceb26f2c11",
+  "hardware": "NVIDIA GeForce RTX 4090",
+  "batch": 1,
+  "input_long_side": 640,
+  "decode_included": false,
+  "common_boundary": "decoded BGR ndarray through final post-NMS detections",
+  "warmup": 100,
+  "iterations": 1000,
+  "pool_size": 32,
+  "parameters": 2036066,
+  "latency_ms_mean": 12.627065801643766,
+  "latency_ms_median": 13.089850021060556,
+  "latency_ms_p95": 13.307669991627336,
+  "throughput_fps_from_mean": 79.19496229043345,
+  "peak_gpu_memory_mb": 4302.4306640625,
+  "framework_components_ms": {},
+  "component_warning": "Framework components are descriptive only; the common wall-time boundary is used for cross-model comparison."
+}

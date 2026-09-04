@@ -1,0 +1,25 @@
+{
+  "protocol_version": "ard100-det-v1",
+  "model": "rtdetr_l_video_disjoint_seed20260823",
+  "source_split": "val",
+  "threshold": 0.6349115967750549,
+  "selection_metric": "maximum frame F1 at IoU>=0.50",
+  "validation_summary": {
+    "frames": 8938,
+    "positive_frames": 8484,
+    "negative_frames": 454,
+    "true_localizations_iou50": 4339,
+    "frame_false_positives": 1184,
+    "frame_false_negatives": 4145,
+    "frame_precision_iou50": 0.7856237552055042,
+    "frame_recall_iou50": 0.5114332861857614,
+    "frame_f1_iou50": 0.6195473691725565,
+    "macro_video_recall_iou50": 0.5112993960013047,
+    "top1_mean_iou_present": 0.3946524641458375,
+    "center_precision_5px": 0.5491513437057991,
+    "center_precision_10px": 0.5495049504950495,
+    "center_precision_20px": 0.5496228194247996,
+    "false_positive_frame_rate_absent": 0.15859030837004406,
+    "false_positive_detections_per_absent_frame": 0.16079295154185022
+  }
+}

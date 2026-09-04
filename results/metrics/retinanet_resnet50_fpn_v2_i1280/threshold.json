@@ -1,0 +1,25 @@
+{
+  "protocol_version": "ard100-det-v1",
+  "model": "retinanet_resnet50_fpn_v2_i1280",
+  "source_split": "val",
+  "threshold": 0.9949000477790833,
+  "selection_metric": "maximum frame F1 at IoU>=0.50",
+  "validation_summary": {
+    "frames": 8938,
+    "positive_frames": 8484,
+    "negative_frames": 454,
+    "true_localizations_iou50": 3711,
+    "frame_false_positives": 2238,
+    "frame_false_negatives": 4773,
+    "frame_precision_iou50": 0.6238023197175996,
+    "frame_recall_iou50": 0.4374115983026874,
+    "frame_f1_iou50": 0.5142382041155685,
+    "macro_video_recall_iou50": 0.445109090304413,
+    "top1_mean_iou_present": 0.34777949998080004,
+    "center_precision_5px": 0.5564592173503065,
+    "center_precision_10px": 0.5595238095238095,
+    "center_precision_20px": 0.55999528524281,
+    "false_positive_frame_rate_absent": 0.0947136563876652,
+    "false_positive_detections_per_absent_frame": 0.09691629955947137
+  }
+}

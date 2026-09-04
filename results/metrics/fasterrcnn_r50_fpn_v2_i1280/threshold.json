@@ -1,0 +1,25 @@
+{
+  "protocol_version": "ard100-det-v1",
+  "model": "fasterrcnn_r50_fpn_v2_i1280",
+  "source_split": "val",
+  "threshold": 0.9445419907569885,
+  "selection_metric": "maximum frame F1 at IoU>=0.50",
+  "validation_summary": {
+    "frames": 8938,
+    "positive_frames": 8484,
+    "negative_frames": 454,
+    "true_localizations_iou50": 3730,
+    "frame_false_positives": 2252,
+    "frame_false_negatives": 4754,
+    "frame_precision_iou50": 0.6235372785021732,
+    "frame_recall_iou50": 0.43965110796793966,
+    "frame_f1_iou50": 0.5156919673717683,
+    "macro_video_recall_iou50": 0.44644359946908835,
+    "top1_mean_iou_present": 0.3445639084112492,
+    "center_precision_5px": 0.5159123055162659,
+    "center_precision_10px": 0.5159123055162659,
+    "center_precision_20px": 0.5162659123055162,
+    "false_positive_frame_rate_absent": 0.23348017621145375,
+    "false_positive_detections_per_absent_frame": 0.2444933920704846
+  }
+}

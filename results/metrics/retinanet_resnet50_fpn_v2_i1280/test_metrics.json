@@ -1,0 +1,69 @@
+{
+  "protocol_version": "ard100-det-v1",
+  "model": "retinanet_resnet50_fpn_v2_i1280",
+  "split": "test",
+  "threshold": 0.9949000477790833,
+  "average_precision": {
+    "AP50": 0.3433105889363171,
+    "AP55": 0.28112377055014076,
+    "AP60": 0.21801832354358974,
+    "AP65": 0.15867659699837297,
+    "AP70": 0.100076346055983,
+    "AP75": 0.05148595359595283,
+    "AP80": 0.016952862647975738,
+    "AP85": 0.004542284805021403,
+    "AP90": 0.0005351886540005352,
+    "AP95": 1.1815023984498689e-05,
+    "AP50_95": 0.11747337308113388
+  },
+  "top1": {
+    "frames": 72631,
+    "positive_frames": 71633,
+    "negative_frames": 998,
+    "true_localizations_iou50": 25530,
+    "frame_false_positives": 20003,
+    "frame_false_negatives": 46103,
+    "frame_precision_iou50": 0.560692245184811,
+    "frame_recall_iou50": 0.35639998324794436,
+    "frame_f1_iou50": 0.4357919532970315,
+    "macro_video_recall_iou50": 0.3638945242144882,
+    "top1_mean_iou_present": 0.2783446655722809,
+    "center_precision_5px": 0.4178660673153435,
+    "center_precision_10px": 0.425697653316209,
+    "center_precision_20px": 0.4285315427247218,
+    "false_positive_frame_rate_absent": 0.3226452905811623,
+    "false_positive_detections_per_absent_frame": 0.3406813627254509
+  },
+  "macro_video_recall_bootstrap": {
+    "estimate": 0.3638945242144882,
+    "bootstrap95_low": 0.30467762467147946,
+    "bootstrap95_high": 0.4247961997614057,
+    "resamples": 10000
+  },
+  "size_conditioned_average_precision": {
+    "<=12": {
+      "frames": 31393,
+      "AP50": 0.25157280189250003,
+      "AP75": 0.03000543837554672,
+      "AP50_95": 0.08702930884316053
+    },
+    "12-20": {
+      "frames": 28907,
+      "AP50": 0.46379725517136994,
+      "AP75": 0.12842932588518682,
+      "AP50_95": 0.1892605561600508
+    },
+    "20-32": {
+      "frames": 8977,
+      "AP50": 0.4041658209904656,
+      "AP75": 0.0051391015357492445,
+      "AP50_95": 0.09318811295999277
+    },
+    ">32": {
+      "frames": 2356,
+      "AP50": 0.04451571000537475,
+      "AP75": 0.00037837986543720023,
+      "AP50_95": 0.010980554848001443
+    }
+  }
+}

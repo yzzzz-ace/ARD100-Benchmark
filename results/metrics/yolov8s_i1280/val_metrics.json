@@ -1,0 +1,37 @@
+{
+  "protocol_version": "ard100-det-v1",
+  "model": "yolov8s_i1280",
+  "split": "val",
+  "threshold": 0.2902681231498718,
+  "average_precision": {
+    "AP50": 0.3087286759668375,
+    "AP55": 0.2590663795355234,
+    "AP60": 0.20042034640131534,
+    "AP65": 0.1460062080060417,
+    "AP70": 0.10070955770844887,
+    "AP75": 0.06344834329700012,
+    "AP80": 0.03456141738323279,
+    "AP85": 0.014812627716556125,
+    "AP90": 0.004389559627423218,
+    "AP95": 0.0001547029702970297,
+    "AP50_95": 0.11322978186126761
+  },
+  "top1": {
+    "frames": 8938,
+    "positive_frames": 8484,
+    "negative_frames": 454,
+    "true_localizations_iou50": 2890,
+    "frame_false_positives": 2907,
+    "frame_false_negatives": 5594,
+    "frame_precision_iou50": 0.49853372434017595,
+    "frame_recall_iou50": 0.3406412069778406,
+    "frame_f1_iou50": 0.4047335620754849,
+    "macro_video_recall_iou50": 0.34402252761065477,
+    "top1_mean_iou_present": 0.26895818382220676,
+    "center_precision_5px": 0.4121876473361622,
+    "center_precision_10px": 0.4147807637906648,
+    "center_precision_20px": 0.4147807637906648,
+    "false_positive_frame_rate_absent": 0.5462555066079295,
+    "false_positive_detections_per_absent_frame": 0.711453744493392
+  }
+}

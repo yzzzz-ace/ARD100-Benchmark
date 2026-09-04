@@ -1,0 +1,39 @@
+{
+  "protocol_version": "ard100-det-v1",
+  "model": "rtdetr_l",
+  "precision": "fp32",
+  "weights": "weights/rtdetr_l_ard100_det_v1_best.pt",
+  "weights_sha256": "29354d323e4723003e2ce1eaf5c528ad736219a0d80426d81acba83c1607e834",
+  "hardware": "NVIDIA GeForce RTX 4090",
+  "batch": 1,
+  "input_long_side": 640,
+  "decode_included": false,
+  "common_boundary": "decoded BGR ndarray through final post-NMS detections",
+  "warmup": 100,
+  "iterations": 1000,
+  "pool_size": 32,
+  "parameters": 32808131,
+  "latency_ms_mean": 26.078049499250483,
+  "latency_ms_median": 25.915300007909536,
+  "latency_ms_p95": 28.118380010710098,
+  "throughput_fps_from_mean": 38.34642617841266,
+  "peak_gpu_memory_mb": 244.95263671875,
+  "framework_components_ms": {
+    "preprocess": {
+      "mean": 2.585021701292135,
+      "median": 2.563299989560619,
+      "p95": 2.74575000803452
+    },
+    "inference": {
+      "mean": 22.62111470021773,
+      "median": 22.46259996900335,
+      "p95": 24.532889961847104
+    },
+    "postprocess": {
+      "mean": 0.6479262012871914,
+      "median": 0.6445999897550792,
+      "p95": 0.685640040319413
+    }
+  },
+  "component_warning": "Framework components are descriptive only; the common wall-time boundary is used for cross-model comparison."
+}

@@ -1,0 +1,25 @@
+{
+  "protocol_version": "ard100-det-v1",
+  "model": "yolov8s_i1280",
+  "source_split": "val",
+  "threshold": 0.2902681231498718,
+  "selection_metric": "maximum frame F1 at IoU>=0.50",
+  "validation_summary": {
+    "frames": 8938,
+    "positive_frames": 8484,
+    "negative_frames": 454,
+    "true_localizations_iou50": 2890,
+    "frame_false_positives": 2907,
+    "frame_false_negatives": 5594,
+    "frame_precision_iou50": 0.49853372434017595,
+    "frame_recall_iou50": 0.3406412069778406,
+    "frame_f1_iou50": 0.4047335620754849,
+    "macro_video_recall_iou50": 0.34402252761065477,
+    "top1_mean_iou_present": 0.26895818382220676,
+    "center_precision_5px": 0.4121876473361622,
+    "center_precision_10px": 0.4147807637906648,
+    "center_precision_20px": 0.4147807637906648,
+    "false_positive_frame_rate_absent": 0.5462555066079295,
+    "false_positive_detections_per_absent_frame": 0.711453744493392
+  }
+}
